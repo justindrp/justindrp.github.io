@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+	background-image: url("https://lh3.googleusercontent.com/4I2kRvCc8r5H_KzCW7Doif3gfkZatnz91252Pz6XnllKku0K8s5kVDJYTmdYsAOxtObvFHcCaHSzosBw2OOvfpLAtxJWs5GjscS7D1KEpUYTahnn2mqcnwCeBpK0TD3_OCdRo8Fc2DuSAE_unKGj2fihKLlqZl27pJX0mkfUsKLzdFsrho5YApnsT4q13ktQj65WNKPiZ-TSUylvX9iUuUVxExnHehsYOb-O2vsUjnjuE7QDw-FwCSU6pCgf6mwZrwN2WAjAaFJr9b-6Qaxm3i_SB512-APFKiY85Rfdd_UZavK2dJflDI8KolWVmQakwA77Zp9bFfKcN6IJovjTDTOyLNc9kiwnEMSlLSfP7ojMdMfZNzSXoUPHaXiWPPRVZBr2CWBr6b7MBfKPNdNcvecYTNeu_njwv77jH6sMhxT0H1_V2x8j5JBnpbPR9VY59mt1A-kGMH2UacRuPOm74uYzFGTsO-IATWkvlo0SCkeIKPePHLsq0F59BOmRFnS37UfmgRLw0nwNr6RtGcnj7z1Bss1McqSUhByUQuL0no73CMGqaz37BYMXU0k9ymNf_kpe8G02yehPlfU3bIYza6tiU_Csn1J6qMzcH-gEJlSM7ZgIMzTk4WqK8vDlNOwnuwQqVHq-TBCTrKZegNC89ISDC2ibWtilCeJGDxE8QQsIt2vLXSawAydAZJbKDet9d5brb45s84Y9ipYN_lRF_mY=w938-h625-no?authuser=1");
+	background-size:cover;
+	background-repeat: repeat;
+	background-color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  padding:#;
+  background-color: #dfeaed;
+}
+
+li,a,button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #0b2f3b;
+  text-decoration: none;
+}
+
+.cta {
+  padding: 9px 25px;
+  background-color: rgba(0, 136, 169, 1);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+  background-color: rgba(0, 136, 169, 0.8);
+}
+
+.logo {
+  cursor: pointer;
+  width:180px;
+}
+
+.nav__links {
+  list-style: none;
+  display: flex;
+}
+
+.nav__links li {
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0088a9;
+}
+h1 {
+	text-align: left;
+	color: #0e3b75;
+}
+h2 {
+	margin: 5px 200px;
+}
+p {
+	padding: 0px;
+}
+.content {
+	font-family:"Trebuchet MS", sans-serif;
+	background: #f2e9d0 10px 10px repeat-x fixed;
+	padding: 30px;
+	margin: 30px 200px;
+}
+
+.title {
+	background-color:#9e885c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 800;
+	padding: 2px 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align:left;
+	padding: 10px;
+}
+
+table {
+	width:70%;
+}
