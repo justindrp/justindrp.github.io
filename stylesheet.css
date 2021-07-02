@@ -97,6 +97,10 @@ p {
   background-color: rgba(59, 59, 8, 0.8);
 }
 
+h1 {
+  font-family: Copperplate, fantasy;
+}
+
 #a1 {
   font-weight:800
 }
