@@ -5,26 +5,11 @@
   padding: 0px;
 }
 
-body {
-	background-image: url("https://lh3.googleusercontent.com/4I2kRvCc8r5H_KzCW7Doif3gfkZatnz91252Pz6XnllKku0K8s5kVDJYTmdYsAOxtObvFHcCaHSzosBw2OOvfpLAtxJWs5GjscS7D1KEpUYTahnn2mqcnwCeBpK0TD3_OCdRo8Fc2DuSAE_unKGj2fihKLlqZl27pJX0mkfUsKLzdFsrho5YApnsT4q13ktQj65WNKPiZ-TSUylvX9iUuUVxExnHehsYOb-O2vsUjnjuE7QDw-FwCSU6pCgf6mwZrwN2WAjAaFJr9b-6Qaxm3i_SB512-APFKiY85Rfdd_UZavK2dJflDI8KolWVmQakwA77Zp9bFfKcN6IJovjTDTOyLNc9kiwnEMSlLSfP7ojMdMfZNzSXoUPHaXiWPPRVZBr2CWBr6b7MBfKPNdNcvecYTNeu_njwv77jH6sMhxT0H1_V2x8j5JBnpbPR9VY59mt1A-kGMH2UacRuPOm74uYzFGTsO-IATWkvlo0SCkeIKPePHLsq0F59BOmRFnS37UfmgRLw0nwNr6RtGcnj7z1Bss1McqSUhByUQuL0no73CMGqaz37BYMXU0k9ymNf_kpe8G02yehPlfU3bIYza6tiU_Csn1J6qMzcH-gEJlSM7ZgIMzTk4WqK8vDlNOwnuwQqVHq-TBCTrKZegNC89ISDC2ibWtilCeJGDxE8QQsIt2vLXSawAydAZJbKDet9d5brb45s84Y9ipYN_lRF_mY=w938-h625-no?authuser=1");
-	background-size:cover;
-	background-repeat: repeat;
-	background-color: yellow;
-}
-
-header {
-  display: flex;
-  justify-content: space-evenly;
-  height: 100px;
-  align-items: center;
-  background-color: #dfeaed;
-}
-
-li,a,button {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  color: #0b2f3b;
-  text-decoration: none;
+.content {
+	font-family:"Trebuchet MS", sans-serif;
+	background: #f2e9d0 10px 10px repeat-x fixed;
+	padding: 30px;
+	margin: 30px 200px;
 }
 
 .cta {
@@ -61,22 +46,8 @@ li,a,button {
 .nav__links li a:hover {
   color: #0088a9;
 }
-h1 {
-	text-align: left;
-	color: #0e3b75;
-}
-h2 {
-	margin: 5px 200px;
-}
-p {
-	padding: 0px;
-}
-.content {
-	font-family:"Trebuchet MS", sans-serif;
-	background: #f2e9d0 10px 10px repeat-x fixed;
-	padding: 30px;
-	margin: 30px 200px;
-}
+
+
 
 .title {
 	background-color:#9e885c;
@@ -97,9 +68,6 @@ p {
   background-color: rgba(59, 59, 8, 0.8);
 }
 
-h1 {
-  font-family: Copperplate, fantasy;
-}
 
 #a1 {
   font-weight:800
@@ -115,4 +83,42 @@ h1 {
 
 #a4 {
   font-weight:800
+}
+
+a,button,li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #0b2f3b;
+  text-decoration: none;
+}
+
+body {
+	background-image: url("https://lh3.googleusercontent.com/4I2kRvCc8r5H_KzCW7Doif3gfkZatnz91252Pz6XnllKku0K8s5kVDJYTmdYsAOxtObvFHcCaHSzosBw2OOvfpLAtxJWs5GjscS7D1KEpUYTahnn2mqcnwCeBpK0TD3_OCdRo8Fc2DuSAE_unKGj2fihKLlqZl27pJX0mkfUsKLzdFsrho5YApnsT4q13ktQj65WNKPiZ-TSUylvX9iUuUVxExnHehsYOb-O2vsUjnjuE7QDw-FwCSU6pCgf6mwZrwN2WAjAaFJr9b-6Qaxm3i_SB512-APFKiY85Rfdd_UZavK2dJflDI8KolWVmQakwA77Zp9bFfKcN6IJovjTDTOyLNc9kiwnEMSlLSfP7ojMdMfZNzSXoUPHaXiWPPRVZBr2CWBr6b7MBfKPNdNcvecYTNeu_njwv77jH6sMhxT0H1_V2x8j5JBnpbPR9VY59mt1A-kGMH2UacRuPOm74uYzFGTsO-IATWkvlo0SCkeIKPePHLsq0F59BOmRFnS37UfmgRLw0nwNr6RtGcnj7z1Bss1McqSUhByUQuL0no73CMGqaz37BYMXU0k9ymNf_kpe8G02yehPlfU3bIYza6tiU_Csn1J6qMzcH-gEJlSM7ZgIMzTk4WqK8vDlNOwnuwQqVHq-TBCTrKZegNC89ISDC2ibWtilCeJGDxE8QQsIt2vLXSawAydAZJbKDet9d5brb45s84Y9ipYN_lRF_mY=w938-h625-no?authuser=1");
+	background-size:cover;
+	background-repeat: repeat;
+	background-color: yellow;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100px;
+  align-items: center;
+  background-color: #dfeaed;
+}
+
+h1 {
+	text-align: left;
+	color: #0e3b75;
+  font-family: Copperplate, fantasy;
+}
+h2 {
+	margin: 5px 200px;
+}
+p {
+	padding: 0px;
+}
+
+pre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
