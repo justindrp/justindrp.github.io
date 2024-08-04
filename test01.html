@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link data-default-icon="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png" rel="icon" sizes="192x192" href="https://static.cdninstagram.com/rsrc.php/v3/yI/r/VsNE-OHk_8a.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Market Survey</title>
+    <link rel="stylesheet" href="test01.css">
+  </head>
+  <body>
+    <h1 id="title">Market Survey</h1>
+    <p id="description">Thank you for clicking this link, you may fill this form.</p>
+
+    <form id="survey-form" action="" method="post">
+
+      <fieldset class="flex-container">
+        <label id="name-label" for="name">Name:
+          <input id="name" type="text" name=" name" placeholder="Justin Tan" required>
+        </label>
+        <label id="email-label" for="email">Email:
+          <input id="email" type="email" name="email" placeholder="justintan@gmail.com" required>
+        </label>
+        <label id="number-label" for="number">Number:
+          <input id="number" type="number" name="number" min="0" max="9999999999999" placeholder="081234567890" required>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="dropdown">Are you a Binus student?
+          <select id="dropdown" name="dropdown">
+            <option>Yes</option>
+            <option>No</option>
+            <option>Alumni</option>
+          </select>
+        </label>
+        <label class="block">How often do your teachers assign homeworks a week?</label>
+        <label class="block" for="1">
+          <input id="1" type="radio" name="frequency" value="1">
+          Never
+        </label>
+        <label class="block" for="2">
+          <input id="2" type="radio" name="frequency" value="2">
+          1-2 times
+        </label>
+        <label class="block" for="3">
+          <input id="3" type="radio" name="frequency" value="3">
+          3-4 times
+        </label>
+        <label class="block" for="4">
+          <input id="4" type="radio" name="frequency" value="4">
+          5 or more times
+        </label>
+        <label for="suggestions">
+          Please tell us your complains about Binus University
+          <textarea id="suggestions" name="suggestions" class="block"></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="read" class="block">
+          <input id="read" type="checkbox" name="read" value="yes">
+          I have read this form thoroughly</label>
+        <label for="honest" class="block">
+          <input id="honest" type="checkbox" name="honest" value="yes">
+          I have filled this form honestly</label>
+      </fieldset>
+
+      <input id="submit" type="submit" value="Submit">
+      <input id="reset" type="reset" value="Reset">
+    </form>
+  </body>
+</html>
