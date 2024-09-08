@@ -5,11 +5,12 @@ html {
 
 #navbar {
     position: fixed;
-    min-width: 290px;
+    min-width: 200px;
     top: 0px;
     left: 0px;
     width: 300px;
     height: 100%;
+    padding: 10px;
     border-right: solid;
     border-color: rgba(0, 22, 22, 0.4);
 }
@@ -18,7 +19,7 @@ html {
     height: 88%;
     padding: 0;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: visible;
   }
   
 #navbar li {
@@ -49,12 +50,24 @@ html {
     margin-bottom: 110px;
 }
 
+header {
+    font-size: 2rem;
+    font-weight: 800;
+}
 figure {
     margin: 0;
 }
 
 p {
     margin: 5px 0;
+}
+
+.iphone-touchid {
+    max-width: 100px;
+}
+
+.iphone-faceid {
+    max-width: 100px;
 }
 
 .main-section {
